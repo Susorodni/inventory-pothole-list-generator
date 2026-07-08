@@ -15,8 +15,8 @@ from tkinter import Tk, filedialog, messagebox
 
 import pandas as pd
 
-from asset_builder import mark_to_pothole_sample
-from constants import SUPPORTED_FILE_EXTENSIONS
+from src.asset_builder import mark_to_pothole_sample
+from src.constants import SUPPORTED_FILE_EXTENSIONS
 
 
 class App:

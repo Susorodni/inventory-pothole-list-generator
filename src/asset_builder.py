@@ -11,7 +11,7 @@ import re
 import numpy as np
 import pandas as pd
 
-from helpers import parse_inches
+from .helpers import parse_inches
 
 def mark_to_pothole_sample(
     df: pd.DataFrame,
